@@ -5,15 +5,62 @@
     <link rel="stylesheet" href="bootstrap.css">
     <style>
     .btn-lg {
-        background: red;
+        background: orange;
     }
     </style>
 </head>
 <body>
-<h1> Bootstrap Basic</h1>
-<button class="btn btn-success btn-lg">CLICK ME! </button>
-<button class="btn btn-success btn-lg active">CLICK ME! </button>
-<button class="btn btn-success btn-lg " disabled='disabled'>CLICK ME! </button>
-<a href="http://www.getbootstrap.com" class="btn-info btn-lg"> BootStrap </a>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>This is a Jumbotron</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aut aperiam pariatur vero repellat, placeat molestiae repudiandae officia at quos odit eveniet doloremque quam totam inventore unde non quibusdam ratione minus cupiditate mollitia qui aspernatur magni! Quia unde, fugit dolor autem illo in iusto! Quidem vitae iure debitis assumenda similique.</p>
+            <button class="btn-success btn-lg">Hi There</button>
+        </div>
+        <h1> Bootstrap Basic</h1>
+        <button class="btn btn-success btn-lg">CLICK ME! </button>
+        <button class="btn btn-success btn-lg active">CLICK ME! </button>
+        <button class="btn btn-success btn-lg " disabled='disabled'>CLICK ME! </button>
+        <a href="http://www.getbootstrap.com" class="btn-info btn-lg"> BootStrap </a>
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
+        <!-- in line form  -->
+        <div class="container">
+            <form class="form-inline">
+                
+                <div class="form-group form-inline">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group form-inline">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary ">Submit</button>
+            </form>
+        </div>
+
+    </div>
 </body>
 </html>
