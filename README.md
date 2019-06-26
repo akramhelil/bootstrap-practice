@@ -12,6 +12,7 @@
    - Styling 
    -  Inline 
    -  Personalization of the Forms
-   
+
 - NavBar
-   -  
+   -  Resposponsive desgin. 
+   - Customize the animation on the Nav Bar
